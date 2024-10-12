@@ -34,6 +34,6 @@ print(prev_results.Caffeine_genes$Phenotype)
 #[2] "Antifungal drug resistance"  
 
 ##I am not sure about how exact the match is between "lactate" and "ethanol tolerance"
-#...I believe that I have seen a lot of studies in yeast related to lactose metabolism
+#...however, I believe that I have seen a lot of studies in yeast related to lactose metabolism
 
 #So, I will try to focus on the trait for "Lactate;;1"
