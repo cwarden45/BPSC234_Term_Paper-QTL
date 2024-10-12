@@ -1,0 +1,116 @@
+Gene	Mutation	Coding	Frequency1	Strain2	Phenotype	Reference
+ABZ1	NA	NA	NA		"Fermentation rate, wine aroma"	"Ambroset et al. 2011, Steyer et al. 2012"
+ADE1	NA	Noncoding	NA		maximum ethanol accumulation	Pais et al. 2013
+"ADE5,7"	NA	NA	NA		Nitrogen utilization	Gutierrez et al. 2013
+AMN1	D368V	Coding	Rare	Lab	"Gene regulation, daughter cell separation, aggregation"	"Yvert et al. 2003; Ronald et al. 2005, Li et al. 2012"
+APJ1	NA	Noncoding	NA		Ethanol tolerance	Swinnen et al. 2011
+AQY1	955 bp deletion of coding and promoter region	Both	Low (Malaysian)		"Water permeability, freeze tolerance, osmotic stress"	"Will et al. 2010, Kim and Fay 2009"
+AQY1	A881 frameshift deletion	Coding	Common		"Water permeability, freeze tolerance, osmotic stress"	"Will et al. 2010, Kim and Fay 2009"
+AQY1	M121V	Coding	Common		"Water permeability, freeze tolerance, osmotic stress"	"Bonhivers et al. 1998, Will et al. 2010"
+AQY1	T255P	Coding	Low		"Water permeability, freeze tolerance, osmotic stress"	"Bonhivers et al. 1998, Will et al. 2010"
+AQY2	11 bp deletion (repeated in orf)	Coding	Common		"Water permeability, freeze tolerance, osmotic stress"	"Carbrey et al. 2001, Will et al. 2010"
+AQY2	G25 frameshift deletion	Coding	Common		"Water permeability, freeze tolerance, osmotic stress"	"Carbrey et al. 2001, Will et al. 2010"
+AQY2	G528 frameshift deletion	Coding	Low (Malaysian)		"Water permeability, freeze tolerance, osmotic stress"	"Carbrey et al. 2001, Will et al. 2010"
+ARO8	NA	NA	NA		Nitrogen utilization	Gutierrez et al. 2013
+ASP1	D142H	Coding	Rare	Wine	Acetic acid production	Marullo et al. 2007
+BSP1	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+BUL2	F883L	Coding	Low (Lab + baking)	Lab	amino acid availability with chronological aging and telomere maintenance	Kwan et al. 2011
+BZZ1	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+CAT5	I91M	Coding	Low (lab + 1/ 24)	Lab	Petitie frequency	Dimitrov et al. 2009
+CDC19	NA	NA	NA		High temperature growth	Benjaphokee et al. 2012
+CDC28	NA	NA	NA		"Linear tetrads, filementus growth"	Lee et al. 2011
+Chromosome rearrangement	NA	NA	NA		Copper resistance	Chang et al. 2013
+Chromosome rearrangement		Noncoding (SSU1 promoter)	Common		Sulfite resistance	"Goto-Yamamoto et al. 1998, Perez-Ortin et al. 2002"
+CTR3	5' TY insertion	Noncoding	Rare	Lab	Copper resistance	Knight et al. 1996
+CTT1	NA	NA	NA		Hydrogen peroxide resistance	Kim et al. 2012
+CUP	CNV	Both	Common		Copper resistance	"Fogel and Welch 1982, Warringer et al. 2011"
+CYR1	K1876M	Coding	Rare	Lab	cAMP signalling	Vanhalewyn et al. 1999
+CYR1	NA	NA	NA		Biofilm formation	Granek et al. 2013
+CYS4	I123N	Coding	Rare	Wine	Multi-drug sensitivity	Kim and Fay 2007
+CYS4	S504N	Coding	Rare		Hydrogen sulfide production	"Linderholm et al. 2006, Kim et al. 2012"
+DUG3	NA	NA	NA		Colony color	Kim et al. 2012
+ECM25	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+ENA	CNV	Both	Common		Sodium/Lithium resistance	"Warringer et al. 2011, Daran-Lapujade et al. 2009"
+END3	S258N	Coding	Common (7/14)	Wine	High temperature growth	"Steinmetz et al. 2002, Sinha et al. 2006"
+FKH2	NA	NA	NA		Sporulation efficiency	Ben-Ari et al. 2006
+FLO11	5' noncoding (111 bp indel at -1203)	Noncoding	NA		Biofilm formation	Fidalgo et al. 2006
+FLO11	NA	Coding	NA		Biofilm formation	Fidalgo et al. 2006
+FLO8	G435A nonsense	Coding	Rare	Lab	"Flocculation, pseudohyphal growth"	Liu et al. 1996
+FLX1	NA	NA	NA		succinic acid during fermentation	Salinas et al. 2012
+GAL1	NA	NA	NA		Galactose utilization	Warringer et al. 2011
+GAL3	premature stop	Coding	Low (West African)	West African	Galactose utilization	Warringer et al. 2011
+GAT1	NA	NA	NA		glycerol production during fermenation	Salinas et al. 2012
+GPA1	S469I	Coding	Rare	Lab	"Gene regulation, Cell morphology"	"Yvert et al. 2003, Nogami et al. 2007"
+GPB2	NA	Coding	NA		Gene expression	Chen et al. 2009
+GPD1	NA	NA	NA		Ethanol and glycerol yield	Hubmann et al. 2013b
+HAP1	3' TY insertion	Noncoding	Rare	Lab	Gene expression	Gaisne et al. 1999
+HO	G223S	Coding	Low (lab + 2)		Mating type switching	Ekino et al. 1999
+HO	H475L	Coding	Low (3/12)		Mating type switching	"Meiron et al. 1995, Ekino et al. 1999, Ezov et al. 2009"
+HOT1	NA	NA	NA		Ethanol and glycerol yield	Hubmann et al. 2013b
+HXT6	NA	NA	NA		Growth	Ehrenreich et al. 2012
+IME1	5' noncoding (A-548G)	Noncoding	Low (2/29)	Wine	Sporulation efficiency	Gerke et al. 2009
+IME1	L325M	Coding	Low (3/29)	Wine	Sporulation efficiency	Gerke et al. 2009
+INP52	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+IRA1	NA	NA	NA		High temperature growth	Parts et al. 2011
+IRA2	NA	NA	NA		High temperature growth	Parts et al. 2011
+KIN3	NA	NA	NA		maximum ethanol accumulation	Pais et al. 2013
+KSS1	NA	NA	NA		FUS3-dependent sterility	Elion et al. 1991
+LSB3	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+MDH2	NA	NA	NA		succinic acid during fermentation	Salinas et al. 2012
+MET10	T662K	Coding	Rare	Wine	H2S production	Linderholm et al. 2010
+MIG3	NA	NA	NA		Expression	Lewis and Gasch 2012
+MIP1	T661A	Coding	Rare	Lab	Petitie frequency	"Dimitrov et al. 2009, Baruffini et al. 2007"
+MKT1	G30D	Coding	Rare	Lab	"High temperature growth, Sporulation efficiency, Gene expression, DNA damage, petite formation, ethanol tolerance, dipropyldopamine resistance"	"Steinmetz et al. 2002, Deutschbauer and Davis 2005, Sinha et al. 2006, Smith and Kruglyak 2006, Demogines et al. 2008, Dimitrov et al. 2009, Swinnen et al. 2011, Kim and Fay 2009"
+MLH1	D761G	Coding	Low (2+lab/12)		Mismatch repair	Heck et al. 2006
+MLH1	L271P	Coding	Low (2+lab/12)		Mismatch repair	Demogines et al. 2008b
+MPR1	presence/absence	Both	NA		"L-proline analog resistance, Tolerance to ethanol and freezing"	"Takagi et al. 2000, Shichiri et al. 2001"
+MPR2	presence/absence	Both	NA		"L-proline analog resistance, Tolerance to ethanol and freezing"	"Takagi et al. 2000, Shichiri et al. 2001"
+NCS2	H71L	Coding	Common		High temperature growth	"Sinha et al. 2008, Yang et al. (in press)"
+NDI1	3' noncoding	Noncoding	NA		Hsp90 dependent phenotypes	Jarosz and Lindquist 2010
+PCA1	5' noncoding ?148T > G	Noncoding	Common		Cadmium resistance	Chang and Leu 2011
+PCA1	5' noncoding ?159G > T	Noncoding	Common		Cadmium resistance	Chang and Leu 2011
+PCA1	5' noncoding ?97T > C	Noncoding	Common		Cadmium resistance	Chang and Leu 2011
+PCA1	Coding	Coding	NA		Cadmium resistance	Chang and Leu 2011
+PCA1	G970R	Coding	Rare	Lab	Cadmium resistance	Shiraishi et al. 2000
+PDR5	A1352M	Coding	Rare		Antifungal drug resistance	Guo et al. 2012
+PDR8	NA	Coding	NA		Hsp90 dependent phenotypes	Jarosz and Lindquist 2010
+PDR8	NA	NA	NA		nerolidol production	Steyer et al. 2012
+PHO84	L259P	Coding	Rare	Lab	Drug sensitivity	"Perstein et al. 2007, Chen et al. 2009"
+PMS1	F165C	Coding	Rare		Mismatch repair	Demogines et al. 2008b
+PMS1	R818K	Coding	Low (3/16)		"Mismatch repair, sporulation"	"Heck et al. 2006, Ben-Ari et al. 2006"
+PRP42	NA	Coding	NA		High temperature growth	Yang et al. (in press)
+RAD5	G535R	Coding	Rare	Lab	DNA damage	Fan et al. 1996
+RAD5	I791S	Coding	Rare	Wine	DNA damage	Demogines et al. 2008a
+RAD51	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+RAS2	5' noncoding (indel polA insertion 10 to 11A)	Noncoding	Common		Sporulation efficiency	Ben-Ari et al. 2006
+rDNA	NA	Noncoding	NA		rARS replication and lifespan	Kwan et al. 2013
+RDS2	H251D	Coding	Common (9/22)		Oxidative stress	Diezmann and Dietrich 2011
+RED1	NA	NA	NA		tunicamycin resistance	Ehrenreich et al. 2012
+RGA1	S658Y	Coding	Low (2 strains)		"Cell aggregation, invasive growth"	Li et al. 2012
+RHO2	3' UTR	Noncoding	NA		High temperature growth	"Steinmetz et al. 2002, Sinha et al. 2006"
+RME1	5' noncoding (indel-308A)	Noncoding	Common	Wine	Sporulation efficiency	"Deutschbauer and Davis 2005, Gerke et al. 2009"
+RPI1	Coding	Coding	NA		FLO11 transcription	Chin et al. 2012
+RPS5	NA	Noncoding	NA		High temperature growth	Shahsavarani et al. 2011
+RSF1	D181G	Coding	Common (in wine)	Wine	Sporulation efficiency	Gerke et al. 2009
+SAL1	Frameshift at 403	Coding	Rare	Lab	Petitie frequency	Dimitrov et al. 2009
+SIR2	NA	Coding	NA		Reproductive life span	Stumpferi et al. 2012
+SKY1	NA	NA	NA		Translational readthrough	Torabi and Kruglyak 2012
+SLA1	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+SLA2	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+SMD2	NA	Noncoding	NA		High temperature growth	Yang et al. (in press)
+SMP1	NA	NA	NA		Ethanol and glycerol yield	Hubmann et al. 2013b
+SSK1	Frameshift	Coding	Rare		Ethanol and glycerol yield	Hubmann et al. 2013a
+SSY1	Frameshift (8 Ts to 9T)	Coding	Low (2/many)	Wine	"Gene expression, growth"	Brown et al. 2008
+SUP45	NA	Noncoding	Common		Translation termination	Torabi and Kruglyak 2011
+SWS2	NA	Noncoding	NA		Ethanol tolerance	Swinnen et al. 2011
+SWS2	NA	NA	NA		Sporulation efficiency	Ben-Ari et al. 2006
+SYP1	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+TAO3	E1493Q	Coding	Rare	Lab	Sporulation efficiency	Deutschbauer and Davis 2005
+TLC1	NA	NA	NA		Telomere length	Liti et al. 2009
+TRK1	NA	NA	NA		ammonium toxicity and potassium transport	Reisser et al. 2013
+TRM10	S139P	Coding	Common		Translation termination	Torabi and Kruglyak 2011
+VBA3	NA	NA	NA		Nitrogen utilization	Gutierrez et al. 2013
+VRP1	NA	Noncoding-implicated	NA		"High temperature growth, virulence"	Fraser et al. 2012
+XDH1	presence/absence	Both	Common		xylose utilization	Wenger et al. 2010
+YFL040W	NA	NA	NA		glycerol production during fermenation	Salinas et al. 2012
+YKU80	NA	NA	NA		Telomere length	Liti et al. 2009
