@@ -13,6 +13,8 @@ The *[Bloom et al. 2019](https://elifesciences.org/articles/49212)* *eLife* publ
 
 The yeast segregants are **haploid**, so that may have some influence on the methods that can be tested (in addition to the experimental design).
 
+'run_R_qtl2-Lactate-Model1.R' - script to reformat input files and run ***R/qtl2** analysis based upon [user guide](https://kbroman.org/qtl2/assets/vignettes/user_guide.html) example (but with a `haploid` cross design).
+
 ***Counts for chrXIV_467219_A_G Genotypes***
 
 <table>
