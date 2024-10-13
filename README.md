@@ -13,4 +13,26 @@ The *[Bloom et al. 2019](https://elifesciences.org/articles/49212)* *eLife* publ
 
 The yeast segregants are **haploid**, so that may have some influence on the methods that can be tested (in addition to the experimental design).
 
+***Counts for chrXIV_467219_A_G Genotypes***
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Geno1</th>
+      <th align="center">Geno2</th>
+    </tr>
+    <tr>
+	    <td align="left">Cross "A"<i>BYxRM</i>/td>
+      <td align="center"></td>
+      <td align="center">a/a</td>
+    </tr>
+    <tr>
+	    <td align="left">Cross "375"<i>M22xBY</i>/td>
+      <td align="center"></td>
+      <td align="center">a/a</td>
+    </tr>
+</tbody>
+</table>
+
 Other publications / datasets used for general preparatation (for the term project and course content) include *[Gandolfi et al. 2018](https://www.nature.com/articles/s41598-018-25438-0)* (which has been partially used for earlier analysis of domestic cat Whole Genome Sequencing data [here](https://github.com/cwarden45/Bastu_Cat_Genome) and [here](https://github.com/cwarden45/MissYvonne_Cat_Genome), and there is more specific discussion of the genetic map creation/calculation in *[Li et al. 2016](https://academic.oup.com/g3journal/article/6/6/1607/6029961)*), *[Yengo et al. 2022](https://www.nature.com/articles/s41586-022-05275-y)* (saturation of common variants for human height), and *[Fei_et_al_2022](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-022-03470-7)* (with maize SLAF-Seq [raw data deposit](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA778629)).  For example, even if not used for re-analysis of this specfiic dataset, *[Kontou and Bagos 2024](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-024-00385-x)* provides a review (with some emphasis on analysis that considered summary statistics), and *[Hofmeister et al. 2023](https://www.nature.com/articles/s41588-023-01415-w)* is an example of a relatively recent update / development for a genetic analysis method (*SHAPEIT5*).  In terms of my individiual general research interests, I also thought *[Herniter et al. 2019](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2019.01346/full)* was a good fit.  Depending upon the experimental design, content for the ***R/qtl2*** publication (*[Broman et al. 2019](https://academic.oup.com/genetics/article/211/2/495/5931111)*) may be relevant for this paper/project.  *Slides with "Notes" created during the preparation process have been uploaded as PDF files.*
