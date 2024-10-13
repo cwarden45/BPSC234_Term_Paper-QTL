@@ -40,6 +40,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 **Preiliminary *R/qtl2** Lactate Results*:
 
 ||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
+| --- | --- |--- |
 |Model 1 |![](A_BYxRM_Lactate.Model1_LODall.png)|![](A_M22xBY_Lactate.Model1_LODall.png)|
 
 <table>
