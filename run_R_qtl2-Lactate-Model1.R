@@ -13,7 +13,7 @@ cross = "375_M22xBY"
 allele1 = "M22"
 allele2 = "BY"
 genotypesIN = "data/genotype_375.tsv"
-phenotypesIN = "data/genotype_375phenotypes.tsv"
+phenotypesIN = "data/phenotypes.tsv"
 #defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #at least for now, skip defining 'phenocovar'
