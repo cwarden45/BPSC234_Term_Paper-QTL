@@ -23,12 +23,12 @@ The yeast segregants are **haploid**, so that may have some influence on the met
       <th align="center">Geno2</th>
     </tr>
     <tr>
-	<td align="left">Cross "A"<i>BY x RM</i>/td>
+	<td align="left">Cross "A"<i>BYxRM</i></td>
 	<td align="center"></td>
 	<td align="center"></td>
     </tr>
     <tr>
-	<td align="left">Cross "375"<i>M22 x BY</i>/td>
+	<td align="left">Cross "375"<i>M22xBY</i></td>
 	<td align="center"></td>
 	<td align="center"></td>
     </tr>
