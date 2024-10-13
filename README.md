@@ -9,7 +9,7 @@ The *[Bloom et al. 2019](https://elifesciences.org/articles/49212)* *eLife* publ
  - **MKT1** is identified to contain a causal variant related to the *lactate* trait with a variant inherited from **BYa**.
  - Based considering variability affecting the trait within a cross and crosses that involve *BYa*, I thought that I should consider **Cross "A"** (***BYxRM***)
  - In particular, the *G30D* (**chrXIV_467219_A_G**) variant in *MKT1* is defined as a *"Rare"* variant in this study.
- - In this study, the variant is associated with **many other traits** when inherited from *BYa* (*Caffeine*, *EtOH*,*Glycerol*,*Trehalose*,*Magnesium_Chloride*,*Raffinose*,*YPD*,*Sucrose*,*Xylose*,*Copper_Sulfate*,*Galactose*,*Maltose*, and *Congo_Red*): the trend is usually a decrease, but it is an increase for *Caffeine*.  The variant is **also** associated with *Mannose* when the shared parent is *RMx* (for the decreasing trend).  This may be a reason to also consider the **Cross "375"** (***M22xBY***), especially if there is some focus on this variant.
+ - In this study, the variant is associated with **many other traits** when inherited from *BYa* (*Caffeine*, *EtOH*, *Glycerol*, *Trehalose*, *Magnesium_Chloride*, *Raffinose*, *YPD*, *Sucrose*, *Xylose*, *Copper_Sulfate*, *Galactose*, *Maltose*, and *Congo_Red*): the trend is usually a decrease, but it is an increase for *Caffeine*.  The variant is **also** associated with *Mannose* when the shared parent is *RMx* (for the decreasing trend).  This may be a reason to also consider the **Cross "375"** (***M22xBY***), especially if there is some focus on this variant.
 
 The yeast segregants are **haploid**, so that may have some influence on the methods that can be tested (in addition to the experimental design).
 
