@@ -13,7 +13,7 @@ The *[Bloom et al. 2019](https://elifesciences.org/articles/49212)* *eLife* publ
 
 The yeast segregants are **haploid**, so that may have some influence on the methods that can be tested (in addition to the experimental design).
 
-`run_R_qtl2-Lactate-Model1.R` - script to reformat input files and run ***R/qtl2*** analysis based upon [user guide](https://kbroman.org/qtl2/assets/vignettes/user_guide.html) example (but with a `haploid` cross design).
+`run_R_qtl2-Lactate-Model1.R` - script to reformat input files and run ***R/qtl2*** analysis based upon [user guide](https://kbroman.org/qtl2/assets/vignettes/user_guide.html) example (but with a `haploid` cross design).  Also, add [permutation calculation](https://smcclatchy.github.io/mapping/06-perform-perm-test/) and [effect estimation](https://smcclatchy.github.io/mapping/11-est-qtl-effects/) from [lesson](https://smcclatchy.github.io/mapping/) on *"Quantitative Trait Mapping"*.
 
 ***Counts for chrXIV_467219_A_G Genotypes***
 
@@ -42,15 +42,18 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 ||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
 | --- | --- |--- |
 |Model 1 |![](A_BYxRM_Lactate.Model1_LODall.png)|![](375_M22xBY_Lactate.Model1_LODall.png)|
+|Model 2 |![](A_BYxRM_Lactate.Model2_LODall.png)|![](375_M22xBY_Lactate.Model2_LODall.png)|
 
 <table>
   <tbody>
     <tr>
       <th align="center"></th>
       <th align="center"><b><i>R/qtl2</i></b><br>(haploid,<br>no covariates)</th>
+      <th align="center"><b><i>R/qtl2</i></b><br>(haploid,<br>all traits)</th>
     </tr>
     <tr>
 	<td align="left">Cross "A" (<i>BYxRM</i>)</td>
+	<td align="center"></td>
 	<td align="center"></td>
     </tr>
     <tr>
@@ -58,6 +61,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
     </tr>
     <tr>
 	<td align="left">Cross "375" (<i>M22xBY</i>)</td>
+	<td align="center"></td>
 	<td align="center"></td>
     </tr>
 </tbody>
