@@ -58,7 +58,7 @@ legend("top",legend = c("chrXIV_467219_A_G (MKT1)"), col="orange", lty=3, lwd=2,
 		xpd=T, inset = -0.1)
 dev.off()
 
-operm = scan1perm(genoprobs = pr, pheno = cross_obj$pheno, n_perm = 200)#due to increased run-time, change to 300 instead of 1000
+operm = scan1perm(genoprobs = pr, pheno = cross_obj$pheno, n_perm = 200)#due to increased run-time, change to 200 instead of 1000
 print(summary(operm))
 write.table(data.frame(operm), output.file1, quote=F, sep="\t", row.names=F)
 
