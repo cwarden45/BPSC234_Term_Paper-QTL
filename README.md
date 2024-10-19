@@ -52,7 +52,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
   <tbody>
     <tr>
       <th align="center"></th>
-      <th align="center"><b><i>R/qtl2</i></b><br>(haploid,<br>no covariates)</th>
+      <th align="center"><b><i>R/qtl2</i></b><br>(haploid,<br>only lactate)</th>
       <th align="center"><b><i>R/qtl2</i></b><br>(haploid,<br>all traits)</th>
     </tr>
     <tr>
