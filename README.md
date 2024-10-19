@@ -44,6 +44,8 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 |Model 1 |![](A_BYxRM_Lactate.Model1_LODall.png)|![](375_M22xBY_Lactate.Model1_LODall.png)|
 |Model 2 |![](A_BYxRM_Lactate.Model2_LODall.png)|![](375_M22xBY_Lactate.Model2_LODall.png)|
 
+**LOD thresholds (from 1000 permutations in *R/qtl2*)**:
+
 <table>
   <tbody>
     <tr>
@@ -53,7 +55,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
     </tr>
     <tr>
 	<td align="left">Cross "A" (<i>BYxRM</i>)</td>
-	<td align="center"></td>
+	<td align="center">3.74</td>
 	<td align="center"></td>
     </tr>
     <tr>
