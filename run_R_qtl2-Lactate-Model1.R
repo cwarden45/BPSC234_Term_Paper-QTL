@@ -6,7 +6,9 @@
 ##defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 #yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 ##at least for now, skip defining 'phenocovar'
-#output.file = paste(cross,"_Lactate.Model1_LODpeaks.txt",sep="")
+#output.file1 = paste(cross,"_Lactate.Model1_LODperm.txt",sep="")
+#output.file2 = paste(cross,"_Lactate.Model1_LODpeaks.txt",sep="")
+#output.file3 = paste(cross,"_Lactate.Model1_LODeffect.txt",sep="")
 #output.plot = paste(cross,"_Lactate.Model1_LODall.png",sep="")
 
 cross = "375_M22xBY"
@@ -18,6 +20,9 @@ phenotypesIN = "data/phenotypes.tsv"
 yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #at least for now, skip defining 'phenocovar'
 output.file = paste(cross,"_Lactate.Model1_LODpeaks.txt",sep="")
+output.file1 = paste(cross,"_Lactate.Model1_LODperm.txt",sep="")
+output.file2 = paste(cross,"_Lactate.Model1_LODpeaks.txt",sep="")
+output.file3 = paste(cross,"_Lactate.Model1_LODeffect.txt",sep="")
 output.plot = paste(cross,"_Lactate.Model1_LODall.png",sep="")
 
 library(qtl2)
@@ -88,6 +93,13 @@ legend("top",legend = c("chrXIV_467219_A_G (MKT1)"), col="orange", lty=3, lwd=2,
 		xpd=T, inset = -0.1)
 dev.off()
 
+operm = scan1perm(genoprobs = pr, pheno = cross_obj$pheno, n_perm = 1000)
+print(summary(operm))
+write.table(data.frame(operm), output.file1, quote=F, sep="\t", row.names=F)
+
 peaks = find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)
 #bayes = bayes_int(out, map, lodcolumn=1, prob=0.95)
-write.table(peaks, output.file, quote=F, sep="\t", row.names=F)
+write.table(peaks, output.file2, quote=F, sep="\t", row.names=F)
+
+eff = scan1coef(pr[,"chrXIV"], cross_obj$pheno)#export effects on chromosome of interest
+write.table(data.frame(eff), output.file3, quote=F, sep="\t", row.names=F)
