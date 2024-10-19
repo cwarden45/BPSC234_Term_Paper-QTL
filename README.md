@@ -15,6 +15,8 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 
 `run_R_qtl2-Lactate-Model1.R` - script to reformat input files and run ***R/qtl2*** analysis based upon [user guide](https://kbroman.org/qtl2/assets/vignettes/user_guide.html) example (but with a `haploid` cross design).  Also, add [permutation calculation](https://smcclatchy.github.io/mapping/06-perform-perm-test/) and [effect estimation](https://smcclatchy.github.io/mapping/11-est-qtl-effects/) from [lesson](https://smcclatchy.github.io/mapping/) on *"Quantitative Trait Mapping"*.
 
+`run_R_qtl2-Lactate-Model2.R` - similar to `run_R_qtl2-Lactate-Model1.R`, but consider all traits when determining the effect on the lactate trait.  Also, do not re-create existing *geno* and *gmap* files.
+
 ***Counts for chrXIV_467219_A_G Genotypes***
 
 <table>
