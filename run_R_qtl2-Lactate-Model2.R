@@ -1,29 +1,31 @@
-#cross = "A_BYxRM"
-#allele1 = "BY"
-#allele2 = "RM"
-#genotypesIN = "data/genotype_A.tsv"
-#phenotypesIN = "data/phenotypes.tsv"
-##defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
-#yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
-##at least for now, skip defining 'phenocovar'
-#output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
-#output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
-#output.file3 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
-#output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
-
-cross = "375_M22xBY"
-allele1 = "M22"
-allele2 = "BY"
-genotypesIN = "data/genotype_375.tsv"
+cross = "A_BYxRM"
+allele1 = "BY"
+allele2 = "RM"
+genotypesIN = "data/genotype_A.tsv"
 phenotypesIN = "data/phenotypes.tsv"
 #defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
 #at least for now, skip defining 'phenocovar'
-output.file = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
 output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
 output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
-output.file3 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
+output.file3 = paste(cross,"_Lactate.Model2_LODbayes.txt",sep="")
+output.file4 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
 output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
+
+#cross = "375_M22xBY"
+#allele1 = "M22"
+#allele2 = "BY"
+#genotypesIN = "data/genotype_375.tsv"
+#phenotypesIN = "data/phenotypes.tsv"
+##defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
+#yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
+##at least for now, skip defining 'phenocovar'
+#output.file = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
+#output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
+#output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
+#output.file3 = paste(cross,"_Lactate.Model2_LODbayes.txt",sep="")
+#output.file4 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
+#output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
 
 library(qtl2)
 
@@ -63,9 +65,11 @@ operm = scan1perm(genoprobs = pr, pheno = cross_obj$pheno, n_perm = 200)#due to 
 print(summary(operm))
 write.table(data.frame(operm), output.file1, quote=F, sep="\t", row.names=F)
 
-peaks = find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)
-#bayes = bayes_int(out, map, lodcolumn=16, prob=0.95)
+peaks = find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)# could use Bayes credible intervals with "prob=0.95", but would have to remove "drop".  This requirement is described as: "Provide just one of drop and prob." 
 write.table(peaks, output.file2, quote=F, sep="\t", row.names=F)
 
+bayes = bayes_int(out, map, chr = "chrXIV", lodcolumn=16, prob=0.95)
+write.table(data.frame(bayes), output.file3, quote=F, sep="\t", row.names=F)
+
 eff = scan1coef(pr[,"chrXIV"], cross_obj$pheno[,"Lactate..1"])#export effects on chromosome of interest
-write.table(data.frame(eff), output.file3, quote=F, sep="\t", row.names=F)
+write.table(data.frame(eff), output.file4, quote=F, sep="\t", row.names=F)
