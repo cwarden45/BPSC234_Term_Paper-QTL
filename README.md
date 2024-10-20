@@ -46,6 +46,8 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 |Model 1 |![](A_BYxRM_Lactate.Model1_LODall.png)|![](375_M22xBY_Lactate.Model1_LODall.png)|
 |Model 2 |![](A_BYxRM_Lactate.Model2_LODall.png)|![](375_M22xBY_Lactate.Model2_LODall.png)|
 
+Please note that the **maximum** on the y-axis is influenced by *other* traits.  For example, you can compare the effects for *chrXIV* with the different "models" (such as [here](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/A_BYxRM_Lactate.Model1_LODeffect.txt) and [here](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/A_BYxRM_Lactate.Model2_LODeffect.txt) for Cross "A")
+
 **LOD 5% Significance Thresholds (from 1000 permutations in *R/qtl2*)**:
 
 <table>
