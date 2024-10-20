@@ -1,29 +1,29 @@
-cross = "A_BYxRM"
-allele1 = "BY"
-allele2 = "RM"
-genotypesIN = "data/genotype_A.tsv"
-phenotypesIN = "data/phenotypes.tsv"
-#defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
-yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
-#at least for now, skip defining 'phenocovar'
-output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
-output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
-output.file3 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
-output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
-
-#cross = "375_M22xBY"
-#allele1 = "M22"
-#allele2 = "BY"
-#genotypesIN = "data/genotype_375.tsv"
+#cross = "A_BYxRM"
+#allele1 = "BY"
+#allele2 = "RM"
+#genotypesIN = "data/genotype_A.tsv"
 #phenotypesIN = "data/phenotypes.tsv"
 ##defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 #yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
 ##at least for now, skip defining 'phenocovar'
-#output.file = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
 #output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
 #output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
 #output.file3 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
 #output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
+
+cross = "375_M22xBY"
+allele1 = "M22"
+allele2 = "BY"
+genotypesIN = "data/genotype_375.tsv"
+phenotypesIN = "data/phenotypes.tsv"
+#defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
+yaml = paste(cross,"_Lactate.Model2.yaml",sep="")
+#at least for now, skip defining 'phenocovar'
+output.file = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
+output.file1 = paste(cross,"_Lactate.Model2_LODperm.txt",sep="")
+output.file2 = paste(cross,"_Lactate.Model2_LODpeaks.txt",sep="")
+output.file3 = paste(cross,"_Lactate.Model2_LODeffect.txt",sep="")
+output.plot = paste(cross,"_Lactate.Model2_LODall.png",sep="")
 
 library(qtl2)
 
@@ -52,7 +52,8 @@ png(output.plot, type="cairo")
 ymx = maxlod(out) # overall maximum LOD score
 x_details = unlist(map)
 marker_plotX = xpos_scan1(map, chr=names(map), thechr=c("chrXIV"), thepos=c(467219)/1000000)#re-coded as chrXIV.chrXIV_467219_A_G_41200
-plot(out, map, lodcolumn=1, ylim=c(0, ymx*1.02), las=3, xlab="")
+#have to determine that "Lactate..1" is lodcolumn=16
+plot(out, map, lodcolumn=16, ylim=c(0, ymx*1.02), las=3, xlab="")
 abline(v=marker_plotX, col="orange", lty=3, lwd=3)
 legend("top",legend = c("chrXIV_467219_A_G (MKT1)"), col="orange", lty=3, lwd=2,
 		xpd=T, inset = -0.1)
