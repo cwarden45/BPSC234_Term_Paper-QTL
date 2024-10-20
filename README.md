@@ -66,7 +66,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
     <tr>
 	<td align="left">Cross "375" (<i>M22xBY</i>)</td>
 	<td align="center">3.74</td>
-	<td align="center"></td>
+	<td align="center">3.96</td>
     </tr>
 </tbody>
 </table>
