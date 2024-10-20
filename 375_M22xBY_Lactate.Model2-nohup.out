@@ -1,0 +1,28 @@
+Registered S3 methods overwritten by 'tibble':
+  method     from  
+  format.tbl pillar
+  print.tbl  pillar
+Warning message:
+In readLines(con) :
+  incomplete final line found on '375_M22xBY_Lactate.Model2.yaml'
+null device 
+          1 
+LOD thresholds (200 permutations)
+     X6.azauracil.50ug.mL.3 Cadmium_Chloride.75uM.2 Caffeine.15mM.2
+0.05                   3.87                    4.01            3.77
+     Cobalt_Chloride.2mM.2 Congo_Red.75ug.mL.3 Copper_Sulfate..1
+0.05                  3.87                3.75              3.63
+     Diamide.1.5mM.3 EGTA.5mM.3 EtOH..1 EtOH_Glucose..1 Fluconazole.100uM.2
+0.05            4.07       3.71    3.57            3.69                3.71
+     Formamide.2..2 Fructose..1 Galactose..1 Glycerol..1 Lactate..1
+0.05           3.75        3.86         4.09        3.84       3.96
+     Lithium_Chloride.100mM.2 Magnesium_Chloride..1 Maltose..1
+0.05                     3.87                  3.72       3.69
+     Manganese_Sulfate..1 Mannose..1 Methotrexate.0.4mM.2 Neomycin.5mg.mL.2
+0.05                 3.61       3.59                 3.96               3.9
+     Paraquat.0.75mM.3 Raffinose..1 SDS.0.075..3 Sorbitol.1.5M.2 Sucrose..1
+0.05              3.69         3.83         3.73             3.9       3.82
+     Trehalose..1 Tunicamycin.3uM.3 Xylose..1 YNB..1 YNB.ph3.1 YNB.ph8.1 YPD..1
+0.05         3.94              3.99      4.06   3.84      3.81      4.03   4.02
+     YPD.15.1 YPD..2 YPD..3 YPD.37.1 Zeocin.25ug.mL.3
+0.05     3.96   3.92   3.97     3.78             3.53
