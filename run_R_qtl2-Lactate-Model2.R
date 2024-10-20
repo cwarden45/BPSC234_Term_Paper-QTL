@@ -64,7 +64,7 @@ print(summary(operm))
 write.table(data.frame(operm), output.file1, quote=F, sep="\t", row.names=F)
 
 peaks = find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)
-#bayes = bayes_int(out, map, lodcolumn=1, prob=0.95)
+#bayes = bayes_int(out, map, lodcolumn=16, prob=0.95)
 write.table(peaks, output.file2, quote=F, sep="\t", row.names=F)
 
 eff = scan1coef(pr[,"chrXIV"], cross_obj$pheno[,"Lactate..1"])#export effects on chromosome of interest
