@@ -73,7 +73,7 @@ Please note that the ***maximum* on the y-axis** is influenced by *other* traits
 </tbody>
 </table>
 
-For downstream analysis, I used the command `find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)`.  So, I believe a threshold for a minimal LOD Score (`threshold=4`) is **more stringent** than the above permutated values, although 3.96 is very close.  This was defined using an example, without considerng the permutation analysis.
+For downstream analysis, I used the command `find_peaks(out, map, threshold=4, peakdrop=1.8, drop=1.5)`.  So, I believe a threshold for a minimal LOD Score (`threshold=4`) is **more stringent** than the above permutated values, although 3.96 is very close.  This was defined using the [user guide](https://kbroman.org/qtl2/assets/vignettes/user_guide.html) example, without considering the permutation analysis.
 
 Even though there is a trial version, I did **not** look further into the applicable experimental designs because there is a license for long-term use of *[MapQTL](https://www.kyazma.nl/index.php/MapQTL/)*.
 
