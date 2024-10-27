@@ -87,6 +87,6 @@ If the GitHub and presentation can have some shift in focus, then *[Barry et al.
 
 I have additional early *"Notes"* on this topic, which can be viewed [here](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/Notes-Heritability.pdf).  Additional notes that are even more specific to the presentation (with a focus on ***"GREML-WGS"*** described by *[Young 2019](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008222)* for the ***[Wainschtein et al. 2022](https://www.nature.com/articles/s41588-021-00997-7)***) are included below.
 
-In addition to providing step-by-step execution of code for popular methods, the hertiability of height and weight are shown for various methods in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/figure/F2/)* of *[Srivastava et al. 2023](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpz1.734](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/)*.
+In addition to providing step-by-step execution of code for popular methods, the hertiability of height and weight are shown for various methods in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/figure/F2/)* of *[Srivastava et al. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/)*.
 
 In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/)* provide heritability estimates with multiple methods, sometimes including the variance explained by different MAF categories in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/figure/Fig2/)*.
