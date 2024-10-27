@@ -92,3 +92,5 @@ I have additional early *"Notes"* on this topic, which can be viewed [here](http
 In addition to providing step-by-step execution of code for popular methods, the hertiability of height and weight are shown for various methods in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/figure/F2/)* of *[Srivastava et al. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/)*.
 
 In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/)* provide heritability estimates with multiple methods, sometimes including the variance explained by different MAF categories in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/figure/Fig2/)*.
+
+*[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/figure/F2/)* in the *[Young et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/)* publication for the *R*relatedness *D*isequilibrium *R*egression (*RDR*) method shows the heritiablity estimates for different methods and several traits (including height).
