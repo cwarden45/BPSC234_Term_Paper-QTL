@@ -93,6 +93,8 @@ In addition to providing step-by-step execution of code for popular methods, the
 
 In general, more information related to *GREML* can be found in *[Yang et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28854176/)*.
 
+There are also (general) *REML* implementations in R.  For example, the *[lme4](https://cran.r-project.org/web/packages/lme4/index.html)* package has a `lmer()` function with a parameter that can be set as `REML = TRUE`, which I learned about through [this video](https://www.youtube.com/watch?v=QCqF-2E86r0) as well as [this discussion](https://stackoverflow.com/questions/54980399/when-should-i-specify-reml-false-in-lmer).
+
 In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/)* provide heritability estimates with multiple methods, sometimes including the variance explained by different MAF categories in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/figure/Fig2/)*.
 
 *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/figure/F2/)* in the *[Young et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/)* publication for the *R*elatedness *D*isequilibrium *R*egression (*RDR*) method shows the heritiablity estimates for different methods and several traits (including height).
