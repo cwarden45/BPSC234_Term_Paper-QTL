@@ -91,7 +91,7 @@ I have additional early *"Notes"* on this topic, which can be viewed [here](http
 
 In addition to providing step-by-step execution of code for popular methods, the hertiability of height and weight are shown for various methods in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/figure/F2/)* of *[Srivastava et al. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10923601/)*.
 
-In general, more information related to *GREML* can be found in *[Yang et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28854176/)*.  There is also *[GREMLd](https://yanglab.westlake.edu.cn/software/gcta/#GREMLfordominancevariance)* to include dominance effects, described in *[Zhu et al. 2015](https://pubmed.ncbi.nlm.nih.gov/25683123/)*.
+In general, more information related to *GREML* can be found in *[Yang et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28854176/)*.  There is also *[GREMLd](https://yanglab.westlake.edu.cn/software/gcta/#GREMLfordominancevariance)* to characterize dominance variation, described in *[Zhu et al. 2015](https://pubmed.ncbi.nlm.nih.gov/25683123/)*.
 
 There are also (general) *REML* implementations in R.  For example, the *[lme4](https://cran.r-project.org/web/packages/lme4/index.html)* package has a `lmer()` function with a parameter that can be set as `REML = TRUE`, which I learned about through [this video](https://www.youtube.com/watch?v=QCqF-2E86r0) as well as [this discussion](https://stackoverflow.com/questions/54980399/when-should-i-specify-reml-false-in-lmer).
 
