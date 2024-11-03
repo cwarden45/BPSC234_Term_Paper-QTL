@@ -42,10 +42,10 @@ You can see distributions for the observed (normalized) lactate values versus th
 </table>
 
 **Cross "A" (*BYxRM*)**:
-![](A_BYxRM_RANDOM_TRAIT_hist.png)
+![](A_BYxRM_RANDOM_TRAIT.Model1_hist.png)
 
 **Cross "375" (*M22xBY*)**:
-![](375_M22xBY_RANDOM_TRAIT_hist.png)
+![](375_M22xBY_RANDOM_TRAIT.Model1_hist.png)
 
 ***Counts for chrXIV_467219_A_G Genotypes***
 
@@ -75,7 +75,7 @@ You can see distributions for the observed (normalized) lactate values versus th
 | --- | --- |--- |
 |Model 1 |![](A_BYxRM_Lactate.Model1_LODall.png)|![](375_M22xBY_Lactate.Model1_LODall.png)|
 |Model 2 |![](A_BYxRM_Lactate.Model2_LODall.png)|![](375_M22xBY_Lactate.Model2_LODall.png)|
-|RANDOM 1 |![](A_BYxRM_RANDOM_TRAIT_LODall.png)|![](375_M22xBY_RANDOM_TRAIT_LODall.png)|
+|RANDOM 1 |![](A_BYxRM_RANDOM_TRAIT.Model1_LODall.png)|![](375_M22xBY_RANDOM_TRAIT.Model1_LODall.png)|
 
 Please note that the ***maximum* on the y-axis** is influenced by *other* traits (for *Model 2*).  For example, you can compare the effects for *chrXIV* with the different "models" (such as [here](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/A_BYxRM_Lactate.Model1_LODeffect.txt) and [here](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/A_BYxRM_Lactate.Model2_LODeffect.txt) for Cross "A")
 
