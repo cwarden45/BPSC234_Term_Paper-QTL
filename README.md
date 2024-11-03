@@ -28,12 +28,12 @@ You can see distributions for the observed (normalized) lactate values versus th
       <th align="center">Standard Deviation</th>
     </tr>
     <tr>
-	<td align="left"><b>Lactate Statistics</b>b><br>Cross "A" (<i>BYxRM</i>)</td>
+	<td align="left"><b>Lactate Statistics</b><br>Cross "A" (<i>BYxRM</i>)</td>
 	<td align="center">-0.0206991</td>
 	<td align="center">2.880972</td>
     </tr>
     <tr>
-	<td align="left"><b>Lactate Statistics</b>b><br>Cross "375" (<i>M22xBY</i>)</td>
+	<td align="left"><b>Lactate Statistics</b><br>Cross "375" (<i>M22xBY</i>)</td>
 	<td align="center">-0.3033533</td>
 	<td align="center">3.346159</td>
     </tr>
