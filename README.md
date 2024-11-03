@@ -21,6 +21,26 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 
 You can see distributions for the observed (normalized) lactate values versus the random values below:
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Mean</th>
+      <th align="center">Standard Deviation</th>
+    </tr>
+    <tr>
+	<td align="left">Lactate Statistics<br>Cross "A" (<i>BYxRM</i>)</td>
+	<td align="center">-0.0206991</td>
+	<td align="center">2.880972</td>
+    </tr>
+    <tr>
+	<td align="left">Lactate Statistics<br>Cross "375" (<i>M22xBY</i>)</td>
+	<td align="center"></td>
+	<td align="center"></td>
+    </tr>
+</tbody>
+</table>
+
 **Cross "A" (*BYxRM*)**:
 ![](375_M22xBY_RANDOM_TRAIT_hist.png)
 
