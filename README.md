@@ -42,7 +42,7 @@ You can see distributions for the observed (normalized) lactate values versus th
 </table>
 
 **Cross "A" (*BYxRM*)**:
-![](375_M22xBY_RANDOM_TRAIT_hist.png)
+![](A_BYxRM_RANDOM_TRAIT_hist.png)
 
 **Cross "375" (*M22xBY*)**:
 ![](375_M22xBY_RANDOM_TRAIT_hist.png)
