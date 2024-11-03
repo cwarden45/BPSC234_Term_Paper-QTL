@@ -34,8 +34,8 @@ You can see distributions for the observed (normalized) lactate values versus th
     </tr>
     <tr>
 	<td align="left">Lactate Statistics<br>Cross "375" (<i>M22xBY</i>)</td>
-	<td align="center"></td>
-	<td align="center"></td>
+	<td align="center">-0.3033533</td>
+	<td align="center">3.346159</td>
     </tr>
 </tbody>
 </table>
