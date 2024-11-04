@@ -130,3 +130,5 @@ There are also (general) *REML* implementations in R.  For example, the *[lme4](
 In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/)* provide heritability estimates with multiple methods, sometimes including the variance explained by different MAF categories in *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294741/figure/Fig2/)*.
 
 *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/figure/F2/)* in the *[Young et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/)* publication for the *R*elatedness *D*isequilibrium *R*egression (*RDR*) method shows the heritiablity estimates for different methods and several traits (including height).
+
+A full upload of content for the presentation has been uploaded on *YouTube* [here](https://www.youtube.com/watch?v=FwImfkFNKdU).
