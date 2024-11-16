@@ -50,7 +50,7 @@ You can see distributions for the observed (normalized) lactate values versus th
 
 `run_R_qtl2-lm_NO_PRUNE.R` - for the purposes of learning and/or visualization, test base-R linear regression with various p-value corrections.  Script is written to avoid need to re-create existing *geno* and *gmap* files.
 
-`run_R_qtl2-fastLm_NO_PRUNE.R` - for the purposes of learning and/or visualization, test linear regression with `fastLmPure()` (from *[RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)) and `pt()` from R-base (as implemented as secondary parameter from the *COHCAP* package, such as with [COHCAP.site.R](https://github.com/cwarden45/COHCAP/blob/master/R/COHCAP.site.R)) and calculate with various p-value corrections.  Script is written to avoid need to re-create existing *geno* and *gmap* files.
+`run_R_qtl2-fastLm_NO_PRUNE.R` - for the purposes of learning and/or visualization, test linear regression with `fastLmPure()` (from *[RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)*) and `pt()` from R-base (as implemented as secondary parameter from the *COHCAP* package, such as with [COHCAP.site.R](https://github.com/cwarden45/COHCAP/blob/master/R/COHCAP.site.R)) and calculate with various p-value corrections.  Script is written to avoid need to re-create existing *geno* and *gmap* files.
 
 ***Counts for chrXIV_467219_A_G Genotypes***
 
