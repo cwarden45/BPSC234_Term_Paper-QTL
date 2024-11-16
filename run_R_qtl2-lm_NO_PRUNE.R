@@ -6,8 +6,8 @@ phenotypesIN = "data/phenotypes.tsv"
 #defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #at least for now, skip defining 'phenocovar'
-output.table = paste(cross,"_lm.NO_PRUNE.pvalue_and_FDR.txt",sep="")
-output.plot = paste(cross,"_lm.NO_PRUNE.pvalue_vs_FDR.png",sep="")
+output.table = paste(cross,"_Lactate.lm.NO_PRUNE.pvalue_and_FDR.txt",sep="")
+output.plot = paste(cross,"_Lactate.lm.NO_PRUNE.pvalue_vs_FDR.png",sep="")
 
 #cross = "375_M22xBY"
 #allele1 = "M22"
@@ -17,8 +17,8 @@ output.plot = paste(cross,"_lm.NO_PRUNE.pvalue_vs_FDR.png",sep="")
 ##defined cross type as "haploid", based upon the R/qtl2 input file type definitions: https://kbroman.org/qtl2/assets/vignettes/input_files.html#Detailed_specifications_for_each_cross_type
 #yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 ##at least for now, skip defining 'phenocovar'
-#output.table = paste(cross,"_lm.NO_PRUNE.pvalue_and_FDR.txt",sep="")
-#output.plot = paste(cross,"_lm.NO_PRUNE.pvalue_vs_FDR.png",sep="")
+#output.table = paste(cross,"_Lactate.lm.NO_PRUNE.pvalue_and_FDR.txt",sep="")
+#output.plot = paste(cross,"_Lactate.lm.NO_PRUNE.pvalue_vs_FDR.png",sep="")
 
 library(qtl2)
 library(mutoss)
@@ -41,7 +41,7 @@ geno.table = geno.table - 1 #use 0 and 1, instead of 1 and 2
 
 #use function from https://github.com/cwarden45/COHCAP/blob/master/R/COHCAP.site.R
 ##There may not be any missing imputed genotypes, but this should allow code to also work if there are only directly observed genotypes
-print("##Calculating P-Value##")
+print("##Calculating P-Values##")
 lm.pvalue = function(arr, var1){
 	if(length(arr[!is.na(arr)]) >= 0.5 * length(arr)){
 		fit = lm(as.numeric(arr)~var1)
