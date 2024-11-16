@@ -43,15 +43,15 @@ geno.table = geno.table - 1 #use 0 and 1, instead of 1 and 2
 #use function from https://github.com/cwarden45/COHCAP/blob/master/R/COHCAP.site.R
 ##There may not be any missing imputed genotypes, but this should allow code to also work if there are only directly observed genotypes
 print("##Calculating P-Values##")
-fastLm_wrapper = function(arr, var1){
+fastLm_wrapperV2 = function(arr, var1){
 	var1= var1[!is.na(arr)]
 	arr= arr[!is.na(arr)]
 	fit_stats = fastLmPure(as.matrix(var1), arr)
 	t_stat = fit_stats$coefficients / fit_stats$stderr
-	return(2*pt(-abs(t_stat), fit_stats$df.residual))#multiply times two, relative to earlier code
-}#end def fastLm_wrapper
+	return(2*pt(-abs(t_stat), fit_stats$df.residual))#multiply times two, relative to other version (which I believe was not precisely correct, at least with this method and this design).
+}#end def fastLm_wrapperV2
 
-lm.pvalue = apply(geno.table, 1, fastLm_wrapper, pheno)
+lm.pvalue = apply(geno.table, 1, fastLm_wrapperV2, pheno)
 print("##Calculating P-Value Adjustment##")
 Bonferroni.correction = p.adjust(lm.pvalue, method="bonferroni")
 Sidak_obj = sidak(lm.pvalue, alpha=0.05, silent=TRUE)
