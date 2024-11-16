@@ -118,7 +118,7 @@ Even though there is a trial version, I did **not** look further into the applic
 ||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
 | --- | --- |--- |
 |**R-base** `lm()`<br>(*no SNP pruning*)|![](A_BYxRM_Lactate.lm.NO_PRUNE.pvalue_vs_FDR.png)|![](375_M22xBY_Lactate.lm.NO_PRUNE.pvalue_vs_FDR.png)|
-|***RcppArmadillo*** `fastLmPure()`<br>(*no SNP pruning*)|![](A_BYxRM_Lactate.fastLm.NO_PRUNE.pvalue_vs_FDR.png)|![](375_M22xBY_Lactate.fastLm.NO_PRUNE.pvalue_vs_FDR.png)|
+|***RcppArmadillo*** `fastLmPure()`<br> + **R-base** `pt()`<br>(*no SNP pruning*)|![](A_BYxRM_Lactate.fastLm.NO_PRUNE.pvalue_vs_FDR.png)|![](375_M22xBY_Lactate.fastLm.NO_PRUNE.pvalue_vs_FDR.png)|
 
 *Bonferroni* and *Benjamini-Hochberg FDR* are implemented in R-base `p.adjust`.  Implementation within `mutoss` package was used for *Sidak* correction, and implementation within `qvalue` package was used for *q-value* estimation.
 
