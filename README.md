@@ -122,7 +122,7 @@ Even though there is a trial version, I did **not** look further into the applic
 
 *Bonferroni* and *Benjamini-Hochberg FDR* are implemented in R-base `p.adjust`.  Implementation within `mutoss` package was used for *Sidak* correction, and implementation within `qvalue` package was used for *q-value* estimation.
 
-There are also options to estimate **heritability** in *R/qtl2*.
+There are also options to estimate **heritability** in ***R/qtl2***.
 
 ||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
 | --- | --- |--- |
