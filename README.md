@@ -148,17 +148,17 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
       <th align="center">Geno2</th>
     </tr>
     <tr>
-	<td align="left">Cross "B"<br>(<i>YJM145x-x-YPS163a</i>)</td>
+	<td align="left"><b>Cross "B"</b><br>(<i>YJM145x-x-YPS163a</i>)</td>
 	<td align="center"></td>
 	<td align="center"></td>
     </tr>
     <tr>
-	<td align="left">Cross "376"<br>(<i>RMx-x-YPS163a</i>)</td>
+	<td align="left"><b>Cross "376"</b><br>(<i>RMx-x-YPS163a</i>)</td>
 	<td align="center"></td>
 	<td align="center"></td>
     </tr>
     <tr>
-	<td align="left">Cross "377"<br>(<i>CLIB413a-x-YJM145x</i>)</td>
+	<td align="left"><b>Cross "377"</b><br>(<i>CLIB413a-x-YJM145x</i>)</td>
 	<td align="center"></td>
 	<td align="center"></td>
     </tr>
