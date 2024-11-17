@@ -136,7 +136,7 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
 
 ||Cross "B"<br>(*YJM145x-x-YPS163a*)|Cross "376"<br>(*RMx-x-YPS163a*)|Cross "377"<br>(*CLIB413a-x-YJM145x*)|
 | --- | --- |--- |--- |
-|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7148535|||
 
 *Counts for chrXIV_467219_A_G Genotypes (for **additional** crosses)*:
 
