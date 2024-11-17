@@ -152,10 +152,12 @@ In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/
 
 *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/figure/F2/)* in the *[Young et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/)* publication for the *R*elatedness *D*isequilibrium *R*egression (*RDR*) method shows the heritiablity estimates for different methods and several traits (including height).
 
+**A full upload of content for the presentation has been uploaded on *YouTube* [here](https://www.youtube.com/watch?v=FwImfkFNKdU).**
+
+# Other Analysis Notes
+
 For the purposes of learning and/or visualization, ***[GEMMA](https://github.com/genetics-statistics/GEMMA)*** could also be compared as an analysis strategy.  However, this is **not** a random population, and I was not about the appropriateness to use the *SNP heritability* functions.  That said, the *GitHub* repository provides a link to a *GEMMA "GWAS" tutorial* with [mouse data](https://github.com/rcc-uchicago/genetic-data-analysis-2) (instead of yeast data, with this particular experimental design).  For upstream pruning using *plink(2)*, there was an [earlier project](https://github.com/cwarden45/QCarray_SuperPop/blob/master/run_plink_IBD.sh) where I used the settings `--indep-pairwise 50 5 0.2` for low-density *QC Array* SNP chip data..  However, on [this page](https://www.cog-genomics.org/plink/2.0/ld), "reasonable" settings for human data are described as `--indep-pairwise 100kb 0.8`, `--indep-pairwise 200kb 0.5`, or `--indep-pairwise 500kb 0.2`.
 
 There are also "*association analysis*" tools avaialable from ***plink***.  In *[plink 1.9](https://www.cog-genomics.org/plink/1.9/assoc#unrelated_heritability)*, there is a "*beta*" option for "*unrelated heritability*".  I don't see a similar description for *[plink 2.0](https://www.cog-genomics.org/plink/2.0/assoc)*, but there are other options for association analysis that are described.
 
 However, for **both *plink* and *GEMMA*** (using a *plink* format inputfile for *GEMMA*), I am not sure if there may be an issue when working with ***haploid*** genotypes.  For example, the [.lgen file format](https://www.cog-genomics.org/plink/1.9/formats#lgen) has separate columns for each allele (with one genotype call per row).  I believe that I need *.lgen*  + *.fam* + *.map* files to create a .ped file (for *plink* or *GEMMA*), if I am not starting from a recognized file format (such as *.vcf*).  I see an option to specify **'haploid'/'h'** for `--vcf-half-call <mode>` (at least in the [.vcf section](https://www.cog-genomics.org/plink/2.0/input#vcf)), but I am not sure about all of the implications of that option for downstream analysis.
-
-**A full upload of content for the presentation has been uploaded on *YouTube* [here](https://www.youtube.com/watch?v=FwImfkFNKdU).**
