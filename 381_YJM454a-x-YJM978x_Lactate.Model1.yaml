@@ -1,0 +1,13 @@
+crosstype: haploid
+geno: 381_YJM454a-x-YJM978x_geno.csv
+pheno: 381_YJM454a-x-YJM978x_pheno_Lactate.csv
+gmap: 381_YJM454a-x-YJM978x_gmap.csv
+alleles:
+- A
+- B
+genotypes:
+  A: 1
+  B: 2
+na.strings:
+- '-'
+- NA
