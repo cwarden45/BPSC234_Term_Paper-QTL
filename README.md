@@ -185,7 +185,7 @@ Also, for comparison, here are estimates of  **heritability** in *R/qtl2* for th
 
 ||Cross "A"<br>(*BYxRM*)|Cross "375"<br>(*M22xBY*)|
 | --- | --- |--- |
-|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|**0**|0.0131564|
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|**0**|*0.0131564*|
 
 **It is reassuring that the heritability estimates for the *random trait* are low or zero** - if you could achive a higher heritability estimate, then I might be concerned that estimates ~0.5 for some of the crosses above could have been biased.
 
