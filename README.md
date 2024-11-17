@@ -150,6 +150,8 @@ I also created *reformatted files* and calculated Lactate **heritability** estim
 | --- |--- |--- |--- |
 |||||
 
+One option for viewing the **code** for *[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)* in ***R/qtl2*** is available [here](https://rdrr.io/cran/qtl2/src/R/est_herit.R).
+
 *Selected Counts for chrXIV_467219_A_G Genotypes (among additional crosses)*:
 
 <table>
