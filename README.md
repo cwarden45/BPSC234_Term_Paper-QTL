@@ -138,7 +138,7 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7148535|0.6436756||
 
-||Cross "393"<br>(*CLIB413a-x-YJM978x*)|Cross "381"<br>(*YJM454a-x-YJM978x*)|Cross "3028"<br>(*CLIB219x-x-M22*)|
+||Cross "381"<br>(*YJM454a-x-YJM978x*)|Cross "393"<br>(*CLIB413a-x-YJM978x*)|Cross "3028"<br>(*CLIB219x-x-M22*)|
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
