@@ -148,7 +148,7 @@ I also created *reformatted files* and calculated Lactate **heritability** estim
 
 |Cross "3003"<br>(*273614xa-x-YJM981x*)|Cross "3004"<br>(*CBS2888a-x-YJM981x*)|Cross "3043"<br>(*CBS2888a-x-CLIB219x*)|Cross "3049"<br>(*273614xa-x-PW5a*)|
 | --- |--- |--- |--- |
-|0.4196349||0.5918699||
+|0.4196349|0.5918699|||
 
 One option for viewing the **code** for *[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)* in ***R/qtl2*** is available [here](https://rdrr.io/cran/qtl2/src/R/est_herit.R).
 
