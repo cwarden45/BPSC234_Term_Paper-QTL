@@ -132,7 +132,7 @@ There are also options to estimate **heritability** in ***R/qtl2***.
 | --- | --- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7039277|0.5774671|
 
-Time permitting, I can also create *reformatted files* and Lactate **heritability** estimates for ***other*** crosses:
+I also created *reformatted files* and calculated Lactate **heritability** estimates for ***other*** crosses:
 
 ||Cross "B"<br>(*YJM145x-x-YPS163a*)|Cross "376"<br>(*RMx-x-YPS163a*)|Cross "377"<br>(*CLIB413a-x-YJM145x*)|
 | --- | --- |--- |--- |
@@ -145,6 +145,10 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
 ||Cross "2999"<br>(*I14a-x-YPS1009x*)|Cross "3000"<br>(*I14a-x-Y10x*)|Cross "3001"<br>(*PW5a-x-Y10x*)|
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
+
+||Cross "3049"<br>(*273614xa-x-PW5a*)|Cross "3003"<br>(*273614xa-x-YJM981x*)|Cross "3004"<br>(*CBS2888a-x-YJM981x*)|Cross "3043"<br>(*CBS2888a-x-CLIB219x*)|
+| --- | --- |--- |--- |--- |
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|||||
 
 *Selected Counts for chrXIV_467219_A_G Genotypes (among additional crosses)*:
 
