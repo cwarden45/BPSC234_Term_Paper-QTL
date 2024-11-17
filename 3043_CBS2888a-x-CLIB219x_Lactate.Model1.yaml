@@ -1,0 +1,13 @@
+crosstype: haploid
+geno: 3043_CBS2888a-x-CLIB219x_geno.csv
+pheno: 3043_CBS2888a-x-CLIB219x_pheno_Lactate.csv
+gmap: 3043_CBS2888a-x-CLIB219x_gmap.csv
+alleles:
+- A
+- B
+genotypes:
+  A: 1
+  B: 2
+na.strings:
+- '-'
+- NA
