@@ -128,13 +128,13 @@ Even though there is a trial version, I did **not** look further into the applic
 
 There are also options to estimate **heritability** in ***R/qtl2***.
 
-||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
+||Cross "A"<br>(*BYxRM*)|Cross "375"<br>(*M22xBY*)|
 | --- | --- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7039277|0.5774671|
 
 Time permitting, I can also create *reformatted files* and Lactate **heritability** estimates for ***other*** crosses:
 
-||Cross "B" (*YJM145x-x-YPS163a*)|Cross "376" (*RMx-x-YPS163a*)|Cross "377" (*CLIB413a-x-YJM145x*)|
+||Cross "B"<br>(*YJM145x-x-YPS163a*)|Cross "376"<br>(*RMx-x-YPS163a*)|Cross "377"<br>(*CLIB413a-x-YJM145x*)|
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
