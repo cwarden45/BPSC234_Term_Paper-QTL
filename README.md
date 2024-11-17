@@ -16,7 +16,7 @@ The yeast segregants are **haploid**, so that may have some influence on the met
 
 `run_R_qtl2-Lactate-Model2.R` - similar to `run_R_qtl2-Lactate-Model1.R`, but consider all traits when determining the effect on the lactate trait.  Also, do not re-create existing *geno* and *gmap* files.
 
-`run_R_qtl2-Lactate-Hertiability.R` - follow example code for [est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html) to estimate heritability from experimental cross.  **By default, `reml = TRUE`**.  Do not re-create existing *geno* and *gmap* files.
+`run_R_qtl2-Lactate-Heritability.R` - follow example code for [est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html) to estimate heritability from experimental cross.  **By default, `reml = TRUE`**.  Do not re-create existing *geno* and *gmap* files.
 
 `run_R_qtl2-RANDOM_TRAIT-Model1.R` - similar to `run_R_qtl2-Lactate-Model1.R`, but define a **random** variable from a normal distribution with mean and standard deviation calculated from the lactate values.  Also, do not re-create existing *geno* and *gmap* files.  The goal is to create results that may assist with learning and/or visualization.
 
