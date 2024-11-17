@@ -144,7 +144,7 @@ I also created *reformatted files* and calculated Lactate **heritability** estim
 
 |Cross "2999"<br>(*I14a-x-YPS1009x*)|Cross "3000"<br>(*I14a-x-Y10x*)|Cross "3001"<br>(*PW5a-x-Y10x*)|
 | --- |--- |--- |
-|0.4524924|||
+|0.4524924|0.4419955||
 
 |Cross "3049"<br>(*273614xa-x-PW5a*)|Cross "3003"<br>(*273614xa-x-YJM981x*)|Cross "3004"<br>(*CBS2888a-x-YJM981x*)|Cross "3043"<br>(*CBS2888a-x-CLIB219x*)|
 | --- |--- |--- |--- |
