@@ -132,11 +132,11 @@ There are also options to estimate **heritability** in ***R/qtl2***.
 | --- | --- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7039277|0.5774671|
 
-I also created *reformatted files* and calculated Lactate **heritability** estimates for ***other*** crosses:
+I also created *reformatted files* and calculated Lactate **heritability** estimates for ***other*** crosses (still using *[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)* from ***R/qtl2***):
 
-||Cross "B"<br>(*YJM145x-x-YPS163a*)|Cross "376"<br>(*RMx-x-YPS163a*)|Cross "377"<br>(*CLIB413a-x-YJM145x*)|
-| --- | --- |--- |--- |
-|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7148535|0.6436756|0.4744577|
+|Cross "B"<br>(*YJM145x-x-YPS163a*)|Cross "376"<br>(*RMx-x-YPS163a*)|Cross "377"<br>(*CLIB413a-x-YJM145x*)|
+| --- |--- |--- |
+|0.7148535|0.6436756|0.4744577|
 
 ||Cross "381"<br>(*YJM454a-x-YJM978x*)|Cross "393"<br>(*CLIB413a-x-YJM978x*)|Cross "3028"<br>(*CLIB219x-x-M22*)|
 | --- | --- |--- |--- |
