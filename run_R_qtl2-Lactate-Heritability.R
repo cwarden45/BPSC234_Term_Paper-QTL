@@ -1,3 +1,4 @@
+pheno_to_test = c("Lactate..1")
 cross = "A_BYxRM"
 allele1 = "BY"
 allele2 = "RM"
@@ -5,6 +6,7 @@ allele2 = "RM"
 yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #at least for now, skip defining 'covar'
 
+#pheno_to_test = c("Lactate..1")
 #cross = "375_M22xBY"
 #allele1 = "M22"
 #allele2 = "BY"
@@ -12,6 +14,7 @@ yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 ##at least for now, skip defining 'covar'
 
+#pheno_to_test = c("RANDOM_PHENO")
 #cross = "A_BYxRM"
 #allele1 = "BY"
 #allele2 = "RM"
@@ -19,6 +22,7 @@ yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #yaml = paste(cross,"_RANDOM_TRAIT.yaml",sep="")
 ##at least for now, skip defining 'covar'
 
+#pheno_to_test = c("RANDOM_PHENO")
 #cross = "375_M22xBY"
 #allele1 = "M22"
 #allele2 = "BY"
@@ -26,12 +30,10 @@ yaml = paste(cross,"_Lactate.Model1.yaml",sep="")
 #yaml = paste(cross,"_RANDOM_TRAIT.yaml",sep="")
 ##at least for now, skip defining 'covar'
 
-
 library(qtl2)
 library(mutoss)
 library(qvalue)
 
-pheno_to_test = c("Lactate..1")
 print("##Reading Data##")
 cross_obj = read_cross2(yaml)
 
