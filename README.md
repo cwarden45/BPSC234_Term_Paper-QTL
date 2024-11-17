@@ -134,7 +134,7 @@ There are also options to estimate **heritability** in ***R/qtl2***.
 
 Time permitting, I can also create *reformatted files* and **heritability** estimates for ***other*** crosses:
 
-||Cross "" (**)|Cross "" (**)|Cross "" (**)|
+||Cross "B" (*YJM145x-x-YPS163a*)|Cross "376" (*RMx-x-YPS163a*)|Cross "377" (*CLIB413a-x-YJM145x*)|
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
