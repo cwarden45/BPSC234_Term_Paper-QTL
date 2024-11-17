@@ -142,7 +142,11 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
-*Selected Counts for chrXIV_467219_A_G Genotypes (for **additional** crosses)*:
+||Cross ""<br>(**)|Cross ""<br>(**)|Cross ""<br>(**)|
+| --- | --- |--- |--- |
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
+
+*Selected Counts for chrXIV_467219_A_G Genotypes (among additional crosses)*:
 
 <table>
   <tbody>
