@@ -1,0 +1,13 @@
+crosstype: haploid
+geno: 377_CLIB413a-x-YJM145x_geno.csv
+pheno: 377_CLIB413a-x-YJM145x_pheno_Lactate.csv
+gmap: 377_CLIB413a-x-YJM145x_gmap.csv
+alleles:
+- A
+- B
+genotypes:
+  A: 1
+  B: 2
+na.strings:
+- '-'
+- NA
