@@ -142,7 +142,7 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
-||Cross ""<br>(**)|Cross ""<br>(**)|Cross ""<br>(**)|
+||Cross "2999"<br>(*I14a-x-YPS1009x*)|Cross "3000"<br>(*I14a-x-Y10x*)|Cross "3001"<br>(*PW5a-x-Y10x*)|
 | --- | --- |--- |--- |
 |***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)||||
 
