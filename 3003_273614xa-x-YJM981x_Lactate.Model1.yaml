@@ -1,0 +1,13 @@
+crosstype: haploid
+geno: 3003_273614xa-x-YJM981x_geno.csv
+pheno: 3003_273614xa-x-YJM981x_pheno_Lactate.csv
+gmap: 3003_273614xa-x-YJM981x_gmap.csv
+alleles:
+- A
+- B
+genotypes:
+  A: 1
+  B: 2
+na.strings:
+- '-'
+- NA
