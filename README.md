@@ -149,8 +149,8 @@ Time permitting, I can also create *reformatted files* and Lactate **heritabilit
     </tr>
     <tr>
 	<td align="left"><b>Cross "B"</b><br>(<i>YJM145x-x-YPS163a</i>)</td>
-	<td align="center"></td>
-	<td align="center"></td>
+	<td align="center">0</td>
+	<td align="center">0</td>
     </tr>
     <tr>
 	<td align="left"><b>Cross "376"</b><br>(<i>RMx-x-YPS163a</i>)</td>
