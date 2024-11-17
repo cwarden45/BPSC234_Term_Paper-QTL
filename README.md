@@ -140,7 +140,7 @@ I also created *reformatted files* and calculated Lactate **heritability** estim
 
 ||Cross "381"<br>(*YJM454a-x-YJM978x*)|Cross "393"<br>(*CLIB413a-x-YJM978x*)|Cross "3028"<br>(*CLIB219x-x-M22*)|
 | --- | --- |--- |--- |
-|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.5135966|||
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.5135966|0.4817475||
 
 ||Cross "2999"<br>(*I14a-x-YPS1009x*)|Cross "3000"<br>(*I14a-x-Y10x*)|Cross "3001"<br>(*PW5a-x-Y10x*)|
 | --- | --- |--- |--- |
