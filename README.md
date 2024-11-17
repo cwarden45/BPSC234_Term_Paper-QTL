@@ -148,7 +148,7 @@ I also created *reformatted files* and calculated Lactate **heritability** estim
 
 |Cross "3003"<br>(*273614xa-x-YJM981x*)|Cross "3004"<br>(*CBS2888a-x-YJM981x*)|Cross "3043"<br>(*CBS2888a-x-CLIB219x*)|Cross "3049"<br>(*273614xa-x-PW5a*)|
 | --- |--- |--- |--- |
-|0.4196349||||
+|0.4196349||0.5918699||
 
 One option for viewing the **code** for *[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)* in ***R/qtl2*** is available [here](https://rdrr.io/cran/qtl2/src/R/est_herit.R).
 
@@ -218,3 +218,5 @@ For the purposes of learning and/or visualization, ***[GEMMA](https://github.com
 There are also "*association analysis*" tools avaialable from ***plink***.  In *[plink 1.9](https://www.cog-genomics.org/plink/1.9/assoc#unrelated_heritability)*, there is a "*beta*" option for "*unrelated heritability*".  I don't see a similar description for *[plink 2.0](https://www.cog-genomics.org/plink/2.0/assoc)*, but there are other options for association analysis that are described.
 
 However, for **both *plink* and *GEMMA*** (using a *plink* format inputfile for *GEMMA*), I am not sure if there may be an issue when working with ***haploid*** genotypes.  For example, the [.lgen file format](https://www.cog-genomics.org/plink/1.9/formats#lgen) has separate columns for each allele (with one genotype call per row).  I believe that I need *.lgen*  + *.fam* + *.map* files to create a .ped file (for *plink* or *GEMMA*), if I am not starting from a recognized file format (such as *.vcf*).  I see an option to specify **'haploid'/'h'** for `--vcf-half-call <mode>` (at least in the [.vcf section](https://www.cog-genomics.org/plink/2.0/input#vcf)), but I am not sure about all of the implications of that option for downstream analysis.
+
+In the more general context (such as *plink*, "*GWAS*" or *G*enome-*W*ide *A*ssociation *S*tudies, etc.), I also watched videos posted by *[Broad Institute](https://www.youtube.com/watch?v=ppBJqCMSBYk)* and *[MIT OpenCourseWare](https://www.youtube.com/watch?v=KYQ2dPW5nEU)*.
