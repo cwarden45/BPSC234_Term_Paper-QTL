@@ -128,7 +128,7 @@ There are also options to estimate **heritability** in ***R/qtl2***.
 
 ||Cross "A" (*BYxRM*)|Cross "375" (*M22xBY*)|
 | --- | --- |--- |
-|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|||
+|***R/qtl2*** <br>(*[est_herit](https://search.r-project.org/CRAN/refmans/qtl2/html/est_herit.html)*)|0.7039277|0.5774671|
 
 For the purposes of learning and/or visualization, ***[GEMMA](https://github.com/genetics-statistics/GEMMA)*** can also be compared as an analysis strategy.  However, this is **not** a random population, and I was not about the appropriateness to use the *SNP heritability* functions.
 
