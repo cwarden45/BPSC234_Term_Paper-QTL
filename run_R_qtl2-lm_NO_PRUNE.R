@@ -87,12 +87,12 @@ png(output.plot, type="cairo")
 plot(X_plot, -log10(lm.pvalue), type="l",
 	xaxt="n", xlab="",ylab="-Log10(P-Value)")
 legend("top", legend=c("Bonferroni","BH FDR < 0.05","Sidak","q-value < 0.05"),
-		col=c("red","blue","orange","green"),lwd=2,
+		col=c("red","blue","purple","green"),lwd=2,
 		ncol=2, xpd=T, inset = -0.15)
 mtext(unique(marker.chr), side=1, at =chr_midpoint, las=2, line=1)
 abline(v=chr_boundary, lty=3, col="gray")
-abline(h=-log10(Bonferroni.threshold), col="red")
-abline(h=-log10(Sidak.threshold), col="orange")
-abline(h=-log10(BH.FDR.threshold), col="blue")
-abline(h=-log10(q.value.threshold), col="green")
+abline(h=-log10(Bonferroni.threshold), col="red", lwd=3)
+abline(h=-log10(Sidak.threshold), col="purple", lwd=2)
+abline(h=-log10(BH.FDR.threshold), col="blue", lwd=2)
+abline(h=-log10(q.value.threshold), col="green", lwd=2)
 dev.off()
