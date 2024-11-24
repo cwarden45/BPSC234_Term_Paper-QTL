@@ -99,7 +99,7 @@ Please note that the ***maximum* on the y-axis** is influenced by *other* traits
     </tr>
     <tr>
 	<td align="left">Cross "A" (<i>BYxRM</i>)</td>
-	<td align="center">3.74</td>
+	<td align="center">3.73</td>
 	<td align="center">3.44</td>
     </tr>
     <tr>
