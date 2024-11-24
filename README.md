@@ -107,7 +107,7 @@ Please note that the ***maximum* on the y-axis** is influenced by *other* traits
     </tr>
     <tr>
 	<td align="left">Cross "375" (<i>M22xBY</i>)</td>
-	<td align="center">3.74</td>
+	<td align="center">3.70</td>
 	<td align="center">3.96</td>
     </tr>
 </tbody>
