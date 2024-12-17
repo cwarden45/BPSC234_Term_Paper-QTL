@@ -16,4 +16,6 @@ That can be seen in the separate plot below (where **10** is noticeably higher t
 
 ## *HAPPY* Demo
 
-I can successfully run the example code without errors, and the total run-time was less than the *R/qtl2* demo code above.  However, understanding more details may be important.
+I can successfully run the example code without errors, and the total run-time was less than the *R/qtl2* demo code above.
+
+However, understanding more details may be important.
