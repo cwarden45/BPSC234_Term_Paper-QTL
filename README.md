@@ -225,3 +225,7 @@ There are also "*association analysis*" tools avaialable from ***plink***.  In *
 However, for **both *plink* and *GEMMA*** (using a *plink* format inputfile for *GEMMA*), I am not sure if there may be an issue when working with ***haploid*** genotypes.  For example, the [.lgen file format](https://www.cog-genomics.org/plink/1.9/formats#lgen) has separate columns for each allele (with one genotype call per row).  I believe that I need *.lgen*  + *.fam* + *.map* files to create a .ped file (for *plink* or *GEMMA*), if I am not starting from a recognized file format (such as *.vcf*).  I see an option to specify **'haploid'/'h'** for `--vcf-half-call <mode>` (at least in the [.vcf section](https://www.cog-genomics.org/plink/2.0/input#vcf)), but I am not sure about all of the implications of that option for downstream analysis.
 
 In the more general context (such as *plink*, "*GWAS*" or *G*enome-*W*ide *A*ssociation *S*tudies, etc.), I also watched videos posted by *[Broad Institute](https://www.youtube.com/watch?v=ppBJqCMSBYk)* and *[MIT OpenCourseWare](https://www.youtube.com/watch?v=KYQ2dPW5nEU)*.  There is also a more general *playlist* of videos for *[MIT 7.91J Foundations of Computational and Systems Biology](https://www.youtube.com/playlist?list=PLUl4u3cNGP63uK-oWiLgO7LLJV6ZCWXac)*, which also has a website with [example problems](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/pages/assignments/) (and answers) from the Spring 2014 session.
+
+# Additional Work (*Post Course Completion*)
+
+
