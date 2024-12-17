@@ -26,7 +26,7 @@ output.plot1 = "ArabidopsisMAGIC_Demo-HeightOnly-HK_LOD.png"
 png(output.plot1, type="cairo")
 ymx = maxlod(out_hk) # overall maximum LOD score
 plot(out_hk, pmap, lodcolumn=1, ylim=c(0, ymx*1.02), las=3, xlab="")
-abline(v=summary(operm_hk)[1], col="red", lty=3, lwd=3)
+abline(h=summary(operm_hk)[1], col="red", lty=3, lwd=3)
 dev.off()
 
 ### Mixed Linear Model (with overall kinship matrix)
