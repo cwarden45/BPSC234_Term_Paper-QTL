@@ -22,6 +22,6 @@ However, understanding more details may be important.
 
 ## Testing *R/qtl2* `est_map()` Function
 
-Code executed using `test_R_qtl2_demo-est_map.R`, with current output in *arabmagic_gmap-Rqtl2_est_map-haldane.csv*, *arabmagic_gmap-Rqtl2_est_map-kosambi.csv*, and *arabmagic_gmap-Rqtl2_est_map-CF.csv*.
+Code executed using `test_R_qtl2_demo-est_map.R`, with current output in *arabmagic_gmap-Rqtl2_est_map-haldane.csv*, *arabmagic_gmap-Rqtl2_est_map-kosambi.csv*, *arabmagic_gmap-Rqtl2_est_map-CF.csv*, and *arabmagic_gmap-Rqtl2_est_map-morgan.csv*.
 
 I am not currently sure how this compares to estimating genetic maps with data *other* than MAGIC crosses.
