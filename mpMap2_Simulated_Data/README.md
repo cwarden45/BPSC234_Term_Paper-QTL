@@ -57,7 +57,7 @@ mpMap_1.14.tar.gz
 vegan_2.5-6.tar.gz
 ```
 
-**There is also a required `asreml` package.**  However, I believe that a license is needed for that dependency, such as [here](https://cran.r-project.org/web/packages/biometryassist/vignettes/installing-asreml-r.html).
+**There is also a required `asreml` package.**  However, I believe that a license is needed for [ASReml-R](https://vsni.co.uk/software/asreml-r/), such as [here](https://cran.r-project.org/web/packages/biometryassist/vignettes/installing-asreml-r.html).
 
 If I had such a license, then the `devtools` installation may work and/or may at least help to reduce the number of dependencies to install manually?
 
