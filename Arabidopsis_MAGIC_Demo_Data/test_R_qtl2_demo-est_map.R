@@ -40,7 +40,7 @@ for (chr in names(resultK)){
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
 	}else{
-		result.values = as.numeric(result[[chr]])
+		result.values = as.numeric(resultK[[chr]])
 		temp.table = data.frame(marker = names(resultK[[chr]]),
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
@@ -58,7 +58,7 @@ for (chr in names(resultCF)){
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
 	}else{
-		result.values = as.numeric(result[[chr]])
+		result.values = as.numeric(resultCF[[chr]])
 		temp.table = data.frame(marker = names(resultCF[[chr]]),
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
@@ -76,7 +76,7 @@ for (chr in names(resultM)){
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
 	}else{
-		result.values = as.numeric(result[[chr]])
+		result.values = as.numeric(resultM[[chr]])
 		temp.table = data.frame(marker = names(resultM[[chr]]),
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
