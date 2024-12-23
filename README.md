@@ -229,3 +229,5 @@ In the more general context (such as *plink*, "*GWAS*" or *G*enome-*W*ide *A*sso
 # Additional Work (*Post Course Completion*)
 
 In order to learn more about *R/qtl2* (and QTL analysis in general), I created a subfolder that makes use of some public MAGIC data from *Arabidopsis* : [Arabidopsis_MAGIC_Demo_Data](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/tree/main/Arabidopsis_MAGIC_Demo_Data)
+
+I also created a similar subfolder for maize (for *Zea mays*) : [Maize_MAGIC_Demo_Data](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/tree/main/Maize_MAGIC_Demo_Data)
