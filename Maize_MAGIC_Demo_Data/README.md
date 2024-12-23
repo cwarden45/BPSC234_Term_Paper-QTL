@@ -16,6 +16,32 @@ That can be seen in the separate plot below (where **7.4** is noticeably higher 
 
 Similar results can be shown for height (*PH*) when the **other traits are considered as covariates**:
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Phenotype</th>
+      <th align="center">Permutation Threshold</th>
+    </tr>
+    <tr>
+	<td align="left">PS</br>(<i>"pollen shed"</i>)</td>
+	<td align="center">7.44</td>
+    </tr>
+    <tr>
+	<td align="left">PH</br>(<i>"plant height"</i>)</td>
+	<td align="center">7.4</td>
+    </tr>
+    <tr>
+	<td align="left">EH</br>(<i>"ear height"</i>)</td>
+	<td align="center">7.72</td>
+    </tr>
+    <tr>
+	<td align="left">GYrad</br>(<i>"transformed grain yield"</i>)</td>
+	<td align="center">7.49</td>
+    </tr>
+</tbody>
+</table>
+
 ![](MaizeMAGIC_Demo-HeightPhenocovar-Combined_LOD.png)
 
 ![](MaizeMAGIC_Demo-HeightPhenocovar-HK_LOD.png)
