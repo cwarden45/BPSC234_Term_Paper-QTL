@@ -4,11 +4,7 @@ Test commonly used functions for ***Arabidopsis*** MAGIC data from [ArabMAGIC](h
 
 `run_HAPPY_demo.R` - test running demo code from [here](http://mtweb.cs.ucl.ac.uk/mus/www/magic/).  The only modificaiton that I needed to make was to the name of a dependency file, where I changed `source("happy.preCC.29062015.R")` to `source("happy.preCC.R")`.
 
-Also, test commonly used functions for **Maize** MAGIC data from [MaizeMAGIC](https://github.com/rqtl/qtl2data/tree/main/MaizeMAGIC) (for ***R/qtl2***).  An associated publication is [Dell'Acqua et al. 2015]().
-
-## *R/qtl2* results (for *height* or *PH*/plant-height)
-
-First, for ***Arabidopsis***:
+## *R/qtl2* results (for *height*)
 
 ![](ArabidopsisMAGIC_Demo-HeightOnly-Combined_LOD.png)
 
@@ -18,7 +14,7 @@ That can be seen in the separate plot below (where **10** is noticeably higher t
 
 ![](ArabidopsisMAGIC_Demo-HeightOnly-HK_LOD.png)
 
-## *HAPPY* Demo (only for *Arabidopsis*)
+## *HAPPY* Demo
 
 I can successfully run the example code without errors, and the total run-time was less than the *R/qtl2* demo code above (which I believe was already a few minutes).
 
