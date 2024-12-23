@@ -14,7 +14,7 @@ That can be seen in the separate plot below (where **7.72** is noticeably higher
 
 ![](MaizeMAGIC_Demo-HeightOnly-HK_LOD.png)
 
-Similar results can be shown for height (*PH*) when the other traits are considered as covariates:
+Similar results can be shown for height (*PH*) when the **other traits are considered as covariates**:
 
 ![](MaizeMAGIC_Demo-HeightPhenocovar-Combined_LOD.png)
 
