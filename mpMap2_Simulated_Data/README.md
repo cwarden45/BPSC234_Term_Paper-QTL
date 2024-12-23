@@ -50,7 +50,7 @@ openssl_1.4.3.tar.gz
 usethis_1.6.3.tar.gz
 ```
 
-While the `devtools` installation may work for some (and I still used that to see what I could avoid installing manually), I found that I needed to find earlier versions of the following packages:
+So, next, I found that I needed to find earlier versions of the following packages:
 
 ```
 mpMap_1.14.tar.gz
@@ -58,6 +58,8 @@ vegan_2.5-6.tar.gz
 ```
 
 **There is also a required `asreml` package.**  However, I believe that a license is needed for that dependency, such as [here](https://cran.r-project.org/web/packages/biometryassist/vignettes/installing-asreml-r.html).
+
+If I had such a license, then the `devtools` installation may work and/or may at least help to reduce the number of dependencies to install manually?
 
 Alternatively, the following may work, if you were able to install all of the dependencies:
 
