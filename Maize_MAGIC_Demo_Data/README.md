@@ -2,7 +2,7 @@ Test commonly used functions for **Maize** MAGIC data from [MaizeMAGIC](https://
 
 `run_R_qtl2_demo-Maize-HeightOnly.R` - similar to [run_R_qtl2_demo-Height.R](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/Arabidopsis_MAGIC_Demo_Data/run_R_qtl2_demo-Height.R) for *Arabidopsis*, but use Maize MAGIC data (and "PH" for height).
 
-`run_R_qtl2_demo-Maize-HeightPhenocovar.R` - `run_R_qtl2_demo-Maize-HeightOnly.R`, but provide full traits and only return "PH" results.
+`run_R_qtl2_demo-Maize-HeightPhenocovar.R` - similar to `run_R_qtl2_demo-Maize-HeightOnly.R`, but provide full traits and only return "PH" results.
 
 ## *R/qtl2* results (for *PH* or "*P*lant-*H*eight")
 
