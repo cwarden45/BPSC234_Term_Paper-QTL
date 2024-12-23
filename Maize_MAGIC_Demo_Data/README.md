@@ -14,6 +14,13 @@ That can be seen in the separate plot below (where **X** is noticeably higher th
 
 ![](MaizeMAGIC_Demo-HeightOnly-HK_LOD.png)
 
+Similar results can be shown for height (*PH*) when the other traits are considered as covariates:
+
+![](MaizeMAGIC_Demo-HeightPhenocovar-Combined_LOD.png)
+
+![](MaizeMAGIC_Demo-HeightPhenocovar-HK_LOD.png)
+
+
 ## Testing *R/qtl2* `est_map()` Function
 
 Code executed using `test_R_qtl2_demo-Maize-est_map.R`, with output in *MaizeMAGIC_gmap-Rqtl2_est_map-kosambi.csv*.
