@@ -8,9 +8,9 @@ Test commonly used functions for **Maize** MAGIC data from [MaizeMAGIC](https://
 
 ![](MaizeMAGIC_Demo-HeightOnly-Combined_LOD.png)
 
-For the Haley-Knott Regression, the **95% permutation threshold** for the LOD Score was **X** (after setting the random seed to 0).
+For the Haley-Knott Regression, the **95% permutation threshold** for the LOD Score was **7.72** (after setting the random seed to 0).
 
-That can be seen in the separate plot below (where **X** is noticeably higher than a LOD of 3 or 4):
+That can be seen in the separate plot below (where **7.72** is noticeably higher than a LOD of 3 or 4):
 
 ![](MaizeMAGIC_Demo-HeightOnly-HK_LOD.png)
 
