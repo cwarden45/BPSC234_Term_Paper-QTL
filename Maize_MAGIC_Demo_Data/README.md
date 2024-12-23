@@ -19,7 +19,6 @@ Similar results can be shown for height (*PH*) when the **other traits are consi
 <table>
   <tbody>
     <tr>
-      <th align="center"></th>
       <th align="center">Phenotype</th>
       <th align="center">Permutation Threshold</th>
     </tr>
