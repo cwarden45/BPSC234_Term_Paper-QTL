@@ -212,7 +212,7 @@ In a specific context, *[Hill et al 2018](https://pmc.ncbi.nlm.nih.gov/articles/
 
 *[Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/figure/F2/)* in the *[Young et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6130754/)* publication for the *R*elatedness *D*isequilibrium *R*egression (*RDR*) method shows the heritiablity estimates for different methods and several traits (including height).
 
-**A full upload of content for the presentation has been uploaded on *YouTube* [here](https://www.youtube.com/watch?v=FwImfkFNKdU).**  A ***reduced*** set of slides will be used for re-recording and formal submission for the project.  So, for the *longer* version that can be seen on *YouTube*, a PDF version of the slides is available [here](https://drive.google.com/file/d/1XsvDYlPNxcg6k3QtcIgPqB4jm-P4F0N0/view?usp=sharing).  For my **formal submission**, I did not upload the additional set of slides, but the video was uploaded to *OneDrive* and can be viewed [here](https://1drv.ms/v/c/f5dbc3c93f5d50ea/EcIHS43KccxCheMKKQsA1f4Bq1t8CXcCHSZzuz1Jc9JtSQ).
+**A full upload of content for the presentation has been uploaded on *YouTube* [here](https://www.youtube.com/watch?v=FwImfkFNKdU).**  A ***reduced*** set of slides will be used for re-recording and formal submission for the project.  So, for the *longer* version that can be seen on *YouTube*, a PDF version of the slides is available [here](https://drive.google.com/file/d/1XsvDYlPNxcg6k3QtcIgPqB4jm-P4F0N0/view?usp=sharing).  For my **formal submission**, I did not upload the additional set of slides, but the video was uploaded to *OneDrive* and **can be viewed [here](https://1drv.ms/v/c/f5dbc3c93f5d50ea/EcIHS43KccxCheMKKQsA1f4Bq1t8CXcCHSZzuz1Jc9JtSQ)**.
 
 # Other Analysis Notes
 
