@@ -232,4 +232,4 @@ In order to learn more about *R/qtl2* (and QTL analysis in general), I created a
 
 I also created a similar subfolder for maize (for *Zea mays*) : [Maize_MAGIC_Demo_Data](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/tree/main/Maize_MAGIC_Demo_Data)
 
-As an early starting point to learn more, I also tested using **R/mpMap2** functions in [another subfolder](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/tree/main/mpMap2_Simulated_Data).
+As an early starting point to learn more, I also tested using ***R/mpMap2*** functions in [another subfolder](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/tree/main/mpMap2_Simulated_Data).
