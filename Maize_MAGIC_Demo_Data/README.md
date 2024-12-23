@@ -1,6 +1,4 @@
-Test commonly used functions for **Maize** MAGIC data from [MaizeMAGIC](https://github.com/rqtl/qtl2data/tree/main/MaizeMAGIC) (for ***R/qtl2***).  An associated publication is [Dell'Acqua et al. 2015](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0716-z).
-
-Relative to [ArabMAGIC](https://github.com/rqtl/qtl2data/tree/main/ArabMAGIC), there are additional variables for *maize_magic_crossinfo.csv* and *maize_magic_phenocovar.csv*.
+Test commonly used functions for **Maize** MAGIC data from [MaizeMAGIC](https://github.com/rqtl/qtl2data/tree/main/MaizeMAGIC) (for ***R/qtl2***).  An associated publication is [Dell'Acqua et al. 2015](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0716-z).  Relative to [ArabMAGIC](https://github.com/rqtl/qtl2data/tree/main/ArabMAGIC), there are additional variables for *maize_magic_crossinfo.csv* and *maize_magic_phenocovar.csv*.
 
 `run_R_qtl2_demo-Maize-HeightOnly.R` - similar to [run_R_qtl2_demo-Height.R](https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/Arabidopsis_MAGIC_Demo_Data/run_R_qtl2_demo-Height.R) for *Arabidopsis*, but use Maize MAGIC data (and "PH" for height).
 
