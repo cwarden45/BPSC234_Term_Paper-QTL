@@ -4,6 +4,8 @@ Test commonly used functions for *Arabidopsis* MAGIC data from [ArabMAGIC](https
 
 `run_HAPPY_demo.R` - test running demo code from [here](http://mtweb.cs.ucl.ac.uk/mus/www/magic/).  The only modificaiton that I needed to make was to the name of a dependency file, where I changed `source("happy.preCC.29062015.R")` to `source("happy.preCC.R")`.
 
+Associated publications include [Kover et al. 2009](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000551) and [Gnan et al. 2014](https://academic.oup.com/genetics/article/198/4/1751/5935984).  There is some additional information about the MAGIC lines in *Table S1* from [Kover et al. 2009](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000551), which is also provided on [this page](https://arabidopsis.info/CollectionInfo?id=112).
+
 ## *R/qtl2* results (for *height*)
 
 ![](ArabidopsisMAGIC_Demo-HeightOnly-Combined_LOD.png)
