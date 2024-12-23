@@ -17,7 +17,7 @@ for (chr in names(resultK)){
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
 	}else{
-		result.values = as.numeric(result[[chr]])
+		result.values = as.numeric(resultK[[chr]])
 		temp.table = data.frame(marker = names(resultK[[chr]]),
 								chr = rep(chr, length(result.values)),
 								pos = result.values)
