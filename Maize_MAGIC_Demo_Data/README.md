@@ -23,19 +23,19 @@ Similar results can be shown for height (*PH*) when the **other traits are consi
       <th align="center">Permutation Threshold</th>
     </tr>
     <tr>
-	<td align="left">PS</br>(<i>"pollen shed"</i>)</td>
+	<td align="left"><b>PS</b></br>(<i>"pollen shed"</i>)</td>
 	<td align="center">7.44</td>
     </tr>
     <tr>
-	<td align="left">PH</br>(<i>"plant height"</i>)</td>
+	<td align="left"><b>PH</b></br>(<i>"plant height"</i>)</td>
 	<td align="center">7.4</td>
     </tr>
     <tr>
-	<td align="left">EH</br>(<i>"ear height"</i>)</td>
+	<td align="left"><b>EH</b></br>(<i>"ear height"</i>)</td>
 	<td align="center">7.72</td>
     </tr>
     <tr>
-	<td align="left">GYrad</br>(<i>"transformed grain yield"</i>)</td>
+	<td align="left"><b>GYrad</b></br>(<i>"transformed grain yield"</i>)</td>
 	<td align="center">7.49</td>
     </tr>
 </tbody>
