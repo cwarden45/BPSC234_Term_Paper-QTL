@@ -48,6 +48,8 @@ Similar results can be shown for height (*PH*) when the **other traits are consi
 
 ## Testing *R/qtl2* `est_map()` Function
 
-Code executed using `test_R_qtl2_demo-Maize-est_map.R`, with current output in *MaizeMAGIC_gmap-Rqtl2_est_map-kosambi.csv*.
+If I try to run `test_R_qtl2_demo-Maize-est_map.R`, then I encounter the following error message in the result object:
 
-I am still not currently sure how this compares to estimating genetic maps with data *other* than MAGIC crosses.
+```
+est_map not yet implemented for general RIL.
+```
