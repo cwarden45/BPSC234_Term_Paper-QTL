@@ -18,7 +18,7 @@ out_hk = scan1(pr, maize$pheno, cores=local_cores)
 
 operm_hk = scan1perm(pr, maize$pheno, n_perm=1000, cores=local_cores)
 print(summary(operm_hk))
-output.file1 = "MaizeMAGIC_Demo-HeightOnly-HK_LODpeaks.txt"
+output.file1 = "MaizeMAGIC_Demo-HeightOnly-HK_LODpermutations.txt"
 write.table(data.frame(operm_hk), output.file1, quote=F, sep="\t", row.names=F)
 
 #add some plotting and output tables, based upon https://github.com/cwarden45/BPSC234_Term_Paper-QTL/blob/main/run_R_qtl2-Lactate-Model1.R
@@ -77,7 +77,29 @@ print("### Part 3 - SKIP ###")
 print("### Part 4 ###")
 fl_peak = max(out_hk, pmap, lodcolumn="PH")
 fl_pr = pull_genoprobpos(pr, pmap, fl_peak$chr , fl_peak$pos)
+output.file2 = "MaizeMAGIC_Demo-HeightOnly-HK_ParentalProb.txt"
+write.table(data.frame(sample=rownames(fl_pr), fl_pr),
+			output.file2, quote=F, sep="\t", row.names=F)
+
 fl_fit1 = fit1(fl_pr, maize$pheno[,"PH"])
+fit1_peak = data.frame(fl_peak, LOD=fl_fit1$lod)
+output.file3 = "MaizeMAGIC_Demo-HeightOnly-HK_peak.txt"
+write.table(fit1_peak, output.file3, quote=F, sep="\t", row.names=F)
+fit1_sample_stats = data.frame(sample=names(fl_fit1$ind_lod),
+								ind_lod=fl_fit1$ind_lod,
+								fitted=fl_fit1$fitted,
+								resid=fl_fit1$resid)
+output.file3 = "MaizeMAGIC_Demo-HeightOnly-HK_sample_stats.txt"
+write.table(fit1_sample_stats, output.file3, quote=F, sep="\t", row.names=F)
+
 fl_blup = fit1(fl_pr, maize$pheno[,"PH"], blup=TRUE)
+fit1_parental_stats = data.frame(parental=names(fl_fit1$coef),
+								fit1.coef=fl_fit1$coef,
+								fit1.SE=fl_fit1$SE,
+								blup.coef=fl_blup$coef,
+								blup.SE=fl_blup$SE)
+output.file4 = "MaizeMAGIC_Demo-HeightOnly-HK_parental_stats.txt"
+write.table(fit1_parental_stats, output.file4, quote=F, sep="\t", row.names=F)
+
 ##skip for reasons of time and file size
 #save.image(file="MaizeMAGIC_Demo-HeightOnly.RData")
