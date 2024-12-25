@@ -50,6 +50,4 @@ Similar results can be shown for height (*PH*) when the **other traits are consi
 
 If I try to run `test_R_qtl2_demo-Maize-est_map.R`, then I encounter the following error message in the result object:
 
-```
-est_map not yet implemented for general RIL.
-```
+***est_map not yet implemented for general RIL.***
