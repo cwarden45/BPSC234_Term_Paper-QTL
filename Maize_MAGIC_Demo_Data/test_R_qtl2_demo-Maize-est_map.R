@@ -24,7 +24,6 @@ for (chr in names(resultK)){
 		output.table = rbind(output.table, temp.table)
 	}#end else
 }#end for (chr in names(resultK))
-}#end for (chr in names(resultK))
 write.csv(output.table, "MaizeMAGIC_gmap-Rqtl2_est_map-kosambi.csv", row.names=F, quote=F)
 
 ##save again, just in case something else is needed
